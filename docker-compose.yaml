@@ -1,0 +1,11 @@
+version: "2.8"
+services: 
+  api:
+    build: ./api
+    ports: 
+      - 8080:8080
+
+  elinkx:
+    build: ./elinkx
+    ports: 
+      - 3000:3000
