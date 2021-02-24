@@ -1,11 +1,11 @@
-version: "2.8"
+version: "2.8" #verze docker-compose 2.8 zatím údajně nejstabilnější
 services: 
-  api:
+  api: #build api část
     build: ./api
     ports: 
-      - 8080:8080
+      - 8080:8080 #jeď na portu 8080
 
   elinkx:
-    build: ./elinkx
+    build: ./tabulka #build tabulka část
     ports: 
-      - 3000:3000
+      - 3000:3000 #jeď na portu 8080
