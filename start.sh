@@ -5,6 +5,6 @@
 
 
 docker-compose up -d
-echo "Tabulka poslouchá na portu 3000 a api na portu 8080"
+echo "Tabulka poslouchá na portu 3000 a api je možné testovat na portu 8080"
 
 
