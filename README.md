@@ -1,3 +1,3 @@
 # elinkx
 
-Chybí skript, který spustí celý projekt najednou. Jsou vytvořeny dockerfiles a compose-docker. Skript bude vytvořen v nebližší možné době. 
+Skript start.hs spustí aplikace na lokálním dockeru
